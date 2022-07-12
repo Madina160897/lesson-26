@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 820px;
+    height: 640px;
+    border: 1px solid red;
+    background-color: #fafafa;
+}
+
+.flex{
+    display: flex;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.fd-c{
+    flex-direction: column;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.ml-22{
+    margin-left: 22px;
+}
+
+.ml-40{
+    margin-left: 40px;
+}
+
+.login_from{
+    width: 350px;
+    min-height: 200px;
+    background-color: #ffff;
+    border: 1px solid #EFEFEF;
+    border-radius: 3px;
+}
+
+.login_block{
+    text-align: center;
+}
+
+.input-button{
+    width: 268px;
+    height: 133px;
+}
+input{
+    width: 92%;
+    height: 4vh;
+    font-size: 12px;
+    font-weight: 400;
+    color: #959595;
+    padding-left: 5%;
+}
+
+button{
+    width: 100%;
+    height: 4vh;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(0, 149, 246, 0.25);
+    color: #ffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.lines_title{
+    margin: 25px 43px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+
+span{
+    width: 50%;
+    text-align: center;
+    font-size: 9px;
+    color: #959595;
+}
+
+.google-img{
+    width: 21px;
+    height: 21px;
+    padding-top: 2%;
+}
+
+.google{
+    width: 77%;
+    height: 5vh;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    background-color: #efefef;
+    margin-left: 40px;
+    
+}
+
+.google-text{
+    color: #000000;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4% 0 0 4%;
+}
+
+.password{
+    font-size: 11px;
+    font-weight: 400;
+    color: #0095f6;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text-account{
+    width: 350px;
+    min-height: 50px;
+    background-color: #ffff;
+    border: 1px solid #EFEFEF;
+    border-radius: 3px;
+}
+
+.text-end{
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.button{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.icon{
+    width: 278px;
+}
