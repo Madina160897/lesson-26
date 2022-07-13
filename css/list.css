@@ -37,13 +37,17 @@ body{
     margin-top: 20px;
 }
 
+.mt-170{
+    margin-top: 170px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
 header{
     height: 60px;
     background-color: #ffffff;
-}
-
-main{
-    height: 700px;
 }
 
 .logo{
@@ -79,8 +83,8 @@ main{
 }
 
 .icon-header{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .ava-header{
@@ -90,77 +94,85 @@ main{
     border-radius: 100%;
 }
 
-.info{
-    height: 250px;
+main{
+    display: grid;
+    grid-template-areas: "list contact"
+                        "list .";
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 300px 600px;
+}
+
+.list{
+    grid-area: list;
+}
+
+.big-box{
     border-bottom: 1px solid #EFEFEF;
+    height: 330vh;
 }
 
-.ava{
-    width: 150px;
-    height: 150px;
+.header-post{
+    width: 100%;
+    height: 60px;
 }
 
-.info-insta{
-    width: 50%;
-    height: 200px;
+.name-ava{
+    width: 100px;
 }
 
-.name-account{
-    width: 350px;
-    height: 30px;
+.ava-post{
+    width: 32px;
+    height: 32px;
 }
 
 .name{
-    font-size: 28px;
-    font-weight: 400;
-    color: #000;
-}
-
-button{
-    width: 97px;
-    height: 30px;
-    border-radius: 3px;
-    border: 1px solid #EFEFEF;
-    background-color: #ffffff;
     font-size: 14px;
-    font-weight: 600;
-    color: #000;
+    font-weight: 500;
 }
 
-.icon-n{
-    width: 24px;
-    height: 24px;
-}
-
-.z-account{
-    width: 400px;
-}
-
-.post{
+.dot{
     font-size: 16px;
     font-weight: 500;
-    color: #000;
+    margin-left: 70%;
 }
 
-.name-ac{
-    width: 100px;
-    font-size: 18px;
-    font-weight: 500;
+.img-post{
+    width: 100%;
+    height: 200vh;
 }
 
-.posts{
-    width: 60px;
-    border-top: 1px solid #000000;
-    padding: 1% 0;
-    margin-left: 400px;
+.icon-post{
+    width: 24px;
+    height: 27px;
 }
 
-.kub{
-    width: 12px;
-    height: 12px;
+.comment{
+    height: 140px;
 }
 
 .text-post{
     font-size: 14px;
+    font-weight: 400;
+}
+
+.text-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #8e8e8e;
+}
+
+.posts{
+    font-size: 14px;
     font-weight: 500;
+    color: rgba(0, 149, 246, 0.25);
+    margin-left: 65%;
+}
+
+.contact{
+    grid-area: contact;
 }
