@@ -33,12 +33,24 @@ body{
     padding-right: 15%;
 }
 
+.mt-10{
+    margin-top: 10px;
+}
+
 .mt-20{
     margin-top: 20px;
 }
 
 .mt-170{
     margin-top: 170px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.ml-10{
+    margin-left: 10px;
 }
 
 .mb-50{
@@ -85,6 +97,7 @@ header{
 .icon-header{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 .ava-header{
@@ -104,11 +117,12 @@ main{
 
 .list{
     grid-area: list;
+    height: 2000px;
 }
 
 .big-box{
     border-bottom: 1px solid #EFEFEF;
-    height: 160vh;
+    height: 975px;
 }
 
 .header-post{
@@ -134,16 +148,18 @@ main{
     font-size: 16px;
     font-weight: 500;
     margin-left: 70%;
+    cursor: pointer;
 }
 
 .img-post{
     width: 100%;
-    height: 100vh;
+    height: 600px;
 }
 
 .icon-post{
     width: 24px;
     height: 27px;
+    cursor: pointer;
 }
 
 .comment{
@@ -171,6 +187,7 @@ main{
     font-weight: 500;
     color: rgba(0, 149, 246, 0.25);
     margin-left: 65%;
+    cursor: pointer;
 }
 
 .contact{
@@ -190,4 +207,5 @@ main{
     font-size: 12px;
     font-weight: 500;
     color: #0095f6;
+    cursor: pointer;
 }
